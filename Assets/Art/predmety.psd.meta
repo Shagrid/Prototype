@@ -1,0 +1,641 @@
+fileFormatVersion: 2
+guid: d470c1c461566034eb8dcb30f4237a18
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1692277775970590021
+    second: predmety_0
+  - first:
+      213: 5696177083061642973
+    second: predmety_1
+  - first:
+      213: -3964828371082550658
+    second: predmety_2
+  - first:
+      213: -729797697776415964
+    second: predmety_3
+  - first:
+      213: 5285800842027915001
+    second: predmety_4
+  - first:
+      213: 3622637091457886522
+    second: predmety_5
+  - first:
+      213: -4626973008376168584
+    second: predmety_6
+  - first:
+      213: 4680136665000244926
+    second: predmety_7
+  - first:
+      213: 477234156911499745
+    second: predmety_8
+  - first:
+      213: 6515798489753089390
+    second: predmety_9
+  - first:
+      213: 8460119710825261628
+    second: predmety_10
+  - first:
+      213: -4908520085570110789
+    second: predmety_11
+  - first:
+      213: -4394850191198090413
+    second: predmety_12
+  - first:
+      213: -9103530243071242995
+    second: predmety_13
+  - first:
+      213: 8428990106030121020
+    second: predmety_14
+  - first:
+      213: 2214023465264335708
+    second: predmety_15
+  - first:
+      213: 5544114842387011908
+    second: predmety_16
+  - first:
+      213: 1881953310729123030
+    second: predmety_17
+  - first:
+      213: 4544960077135023311
+    second: predmety_18
+  - first:
+      213: -1814749828838563362
+    second: predmety_19
+  - first:
+      213: 9203807305293663876
+    second: predmety_20
+  - first:
+      213: -2179039556058516602
+    second: predmety_21
+  - first:
+      213: 6609231465294024525
+    second: predmety_22
+  - first:
+      213: -5358619596053144075
+    second: predmety_23
+  - first:
+      213: -3478702103885943571
+    second: predmety_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: predmety_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 760
+        width: 89
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb22cfd2452d388e0800000000000000
+      internalID: -1692277775970590021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 811
+        width: 859
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd62c9d90e2ec0f40800000000000000
+      internalID: 5696177083061642973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_3
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 500
+        width: 80
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b832a4cdc3fd5f0800000000000000
+      internalID: -729797697776415964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_4
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 750
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6d8864cdfea5940800000000000000
+      internalID: 5285800842027915001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_6
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 233
+        width: 274
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ffa6a4090b9cfb0800000000000000
+      internalID: -4626973008376168584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 701
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6fe99108f23f040800000000000000
+      internalID: 4680136665000244926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_8
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 500
+        width: 81
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9946defe97f9600800000000000000
+      internalID: 477234156911499745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 715
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6572c94434cc6a50800000000000000
+      internalID: 6515798489753089390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 504
+        width: 78
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a2509ad02686570800000000000000
+      internalID: 8460119710825261628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_11
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 720
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba39b61dfe61ebb0800000000000000
+      internalID: -4908520085570110789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_12
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 506
+        width: 76
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b8498390b5203c0800000000000000
+      internalID: -4394850191198090413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_13
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 504
+        width: 80
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d86bbf973c9a180800000000000000
+      internalID: -9103530243071242995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_14
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 505
+        width: 77
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30253db7d9c9f470800000000000000
+      internalID: 8428990106030121020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_15
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 574
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bc57b7c9ac9be10800000000000000
+      internalID: 2214023465264335708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 531
+        width: 4
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449d27e3317a0fc40800000000000000
+      internalID: 5544114842387011908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_17
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 554
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d431e9a09a0e1a10800000000000000
+      internalID: 1881953310729123030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_18
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 515
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc07f32c11f21f30800000000000000
+      internalID: 4544960077135023311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_19
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 517
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed160e745a6b0d6e0800000000000000
+      internalID: -1814749828838563362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 515
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e8c25fafd7abf70800000000000000
+      internalID: 9203807305293663876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_21
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 243
+        width: 273
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6837b9d911f72c1e0800000000000000
+      internalID: -2179039556058516602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_22
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 457
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f4f2f1005b8bb50800000000000000
+      internalID: 6609231465294024525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predmety_23
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 202
+        width: 329
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd1eca5edb52a5b0800000000000000
+      internalID: -5358619596053144075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
