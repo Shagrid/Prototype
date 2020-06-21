@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="692ce513-2694-488d-9d4f-636d08abef70" name="Default Changelist" comment="" />
+    <list default="true" id="692ce513-2694-488d-9d4f-636d08abef70" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LorryMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LorryMovement.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,12 +18,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControlScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LorryMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DisableObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/ControlScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LorryMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DisableCube.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DisableObject.cs" />
       </list>
     </option>
   </component>
@@ -58,6 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592651476954</updated>
       <workItem from="1592651530996" duration="1237000" />
+      <workItem from="1592724460072" duration="9463000" />
     </task>
     <servers />
   </component>

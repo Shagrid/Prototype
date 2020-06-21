@@ -7,7 +7,8 @@ public sealed class LorryMovement : MonoBehaviour
     private int _laneNumber = 1;
     private int _lanesCount = 2;
     private bool _didChangeLastFrame = false;
-    private float _speed = 5;
+    public float Speed = 5;
+    private float _currentSpeed = 0;
     private float _sideSpeed = 5;
     private readonly float _firstLanePos = 2f;
     private readonly float _laneDistance = -2f;
@@ -15,34 +16,44 @@ public sealed class LorryMovement : MonoBehaviour
     private void Start()
     {
         _characterController = GetComponent<CharacterController>();
-        _moveVector = new Vector3(1, 0, 0);
+        _moveVector = new Vector3(0, 0, 0);
     }
 
     private void Update()
     {
-        _moveVector.x = _speed;
+        _moveVector.x = _currentSpeed;
         _moveVector *= Time.deltaTime;
-
-       /* float input = Input.GetAxis("Horizontal");
-
-        if (Mathf.Abs(input) > 0.1f)
-        {
-            if (!_didChangeLastFrame)
-            {
-                _didChangeLastFrame = true;
-                _laneNumber += (int)Mathf.Sign(input);
-                _laneNumber = Mathf.Clamp(_laneNumber, 0, _lanesCount);
-            }
-        }
-        else
-        {
-            _didChangeLastFrame = false;
-        }
-
-        Vector3 newPos = transform.position;
-        newPos.z = Mathf.Lerp(newPos.z, _firstLanePos + (_laneNumber * _laneDistance), Time.deltaTime * _sideSpeed);
-        transform.position = newPos;*/
+        /* float input = Input.GetAxis("Horizontal");
+ 
+         if (Mathf.Abs(input) > 0.1f)
+         {
+             if (!_didChangeLastFrame)
+             {
+                 _didChangeLastFrame = true;
+                 _laneNumber += (int)Mathf.Sign(input);
+                 _laneNumber = Mathf.Clamp(_laneNumber, 0, _lanesCount);
+             }
+         }
+         else
+         {
+             _didChangeLastFrame = false;
+         }
+ 
+         Vector3 newPos = transform.position;
+         newPos.z = Mathf.Lerp(newPos.z, _firstLanePos + (_laneNumber * _laneDistance), Time.deltaTime * _sideSpeed);
+         transform.position = newPos;*/
 
         _characterController.Move(_moveVector);
+        
+    }
+
+    public void StartMoving()
+    {
+        _currentSpeed = Speed;
+    }
+
+    public void StopMoving()
+    {
+        _currentSpeed = 0;
     }
 }
