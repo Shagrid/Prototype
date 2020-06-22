@@ -18,17 +18,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DisableObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControlScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LorryMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DisableObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ControlScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LorryMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisableCube.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisableObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ControlScript.cs" />
       </list>
     </option>
   </component>
@@ -71,6 +71,7 @@
       <updated>1592651476954</updated>
       <workItem from="1592651530996" duration="1237000" />
       <workItem from="1592724460072" duration="9463000" />
+      <workItem from="1592851000015" duration="83000" />
     </task>
     <servers />
   </component>

@@ -12,6 +12,7 @@ public class ControlScript : MonoBehaviour
     private bool _isStartingCars;
     private bool _isStartDorojka;
     private Animator _animator;
+    [SerializeField] private float _dorPosition = 20;
 
     void Start()
     {
@@ -26,7 +27,7 @@ public class ControlScript : MonoBehaviour
     {
         if (_isStartDorojka)
         {
-            if (Dorojka.transform.position.x <= 22)
+            if (Dorojka.transform.position.x <= _dorPosition)
             {
                 _lorryMovement.StopMoving();
                 _isStartDorojka = false;
