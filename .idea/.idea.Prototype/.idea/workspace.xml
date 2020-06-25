@@ -27,8 +27,8 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/LorryMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisableCube.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DisableObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ControlScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DisableObject.cs" />
       </list>
     </option>
   </component>
@@ -71,7 +71,8 @@
       <updated>1592651476954</updated>
       <workItem from="1592651530996" duration="1237000" />
       <workItem from="1592724460072" duration="9463000" />
-      <workItem from="1592851000015" duration="83000" />
+      <workItem from="1592851000015" duration="692000" />
+      <workItem from="1593075708951" duration="1926000" />
     </task>
     <servers />
   </component>

@@ -8,7 +8,7 @@ public class DisableObject : MonoBehaviour
     [SerializeField] private MeshRenderer _kuzov;
     [SerializeField] private Animator _nextAnimation;
     [SerializeField] private Material _newMaterial;
-
+    [SerializeField] private LorryMovement _lorryMovement;
     [SerializeField] private bool _lastAnim = false;
     // Start is called before the first frame update
     public void DisableCubik()
@@ -18,6 +18,11 @@ public class DisableObject : MonoBehaviour
         if (!_lastAnim)
         {
             _nextAnimation.SetTrigger("StartTrigger");
+        }
+        else
+        {
+            _lorryMovement.Speed = 10;
+            _lorryMovement.StartMoving();
         }
 
         gameObject.SetActive(false);

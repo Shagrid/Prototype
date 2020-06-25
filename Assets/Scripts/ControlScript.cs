@@ -16,10 +16,16 @@ public class ControlScript : MonoBehaviour
 
     void Start()
     {
+        _animator = BlueCube.GetComponent<Animator>();
         _lorryMovement = Dorojka.GetComponent<LorryMovement>();
         Dorojka.GetComponent<LorryMovement>().StartMoving();
         _isStartingCars = false;
         _isStartDorojka = true;
+        
+        foreach (var car in Cars)
+        {
+            car.StartMoving();
+        }
     }
 
     // Update is called once per frame
@@ -31,12 +37,6 @@ public class ControlScript : MonoBehaviour
             {
                 _lorryMovement.StopMoving();
                 _isStartDorojka = false;
-                foreach (var car in Cars)
-                {
-                    car.StartMoving();
-                }
-
-                _animator = BlueCube.GetComponent<Animator>();
                 _animator.SetTrigger("StartTrigger");
                 _isStartingCars = true;
             }
