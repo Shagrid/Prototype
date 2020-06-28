@@ -5,10 +5,10 @@ using UnityEngine;
 public class ControlScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject Dorojka;
+    public GameObject[] Dorojka;
     public LorryMovement[] Cars;
-    public GameObject BlueCube;
-    private LorryMovement _lorryMovement;
+    public GameObject StartFigure;
+    private LorryMovement[] _lorryMovements;
     private bool _isStartingCars;
     private bool _isStartDorojka;
     private Animator _animator;
@@ -16,9 +16,17 @@ public class ControlScript : MonoBehaviour
 
     void Start()
     {
-        _animator = BlueCube.GetComponent<Animator>();
-        _lorryMovement = Dorojka.GetComponent<LorryMovement>();
-        Dorojka.GetComponent<LorryMovement>().StartMoving();
+        _animator = StartFigure.GetComponent<Animator>();
+        _lorryMovements = new LorryMovement[Dorojka.Length];
+        for (int i = 0; i < _lorryMovements.Length; i++)
+        {
+            _lorryMovements[i] = Dorojka[i].GetComponent<LorryMovement>();
+        }
+
+        foreach (var lorryMovement in _lorryMovements)
+        {
+            lorryMovement.StartMoving();
+        }
         _isStartingCars = false;
         _isStartDorojka = true;
         
@@ -33,9 +41,12 @@ public class ControlScript : MonoBehaviour
     {
         if (_isStartDorojka)
         {
-            if (Dorojka.transform.position.x <= _dorPosition)
+            if (Dorojka[0].transform.position.x <= _dorPosition)
             {
-                _lorryMovement.StopMoving();
+                for (int i = 0; i < _lorryMovements.Length; i++)
+                {
+                    _lorryMovements[i].StopMoving();
+                }
                 _isStartDorojka = false;
                 _animator.SetTrigger("StartTrigger");
                 _isStartingCars = true;

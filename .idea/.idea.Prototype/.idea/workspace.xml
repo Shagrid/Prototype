@@ -73,6 +73,8 @@
       <workItem from="1592724460072" duration="9463000" />
       <workItem from="1592851000015" duration="692000" />
       <workItem from="1593075708951" duration="1926000" />
+      <workItem from="1593246476202" duration="1636000" />
+      <workItem from="1593250382648" duration="5859000" />
     </task>
     <servers />
   </component>
@@ -83,5 +85,11 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="664" y="298" key="#Notifications" timestamp="1593255099358">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="664" y="298" key="#Notifications/0.0.1600.870/-1280.-124.1280.994@0.0.1600.870" timestamp="1593255099358" />
   </component>
 </project>

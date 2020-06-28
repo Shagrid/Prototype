@@ -148,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119946505}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.01, y: 2.18, z: 0.58}
+  m_LocalPosition: {x: 1.4, y: 2.18, z: 0.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 607721390}
@@ -243,10 +243,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6efc210667418ed4fa5734797b676a9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dorojka: {fileID: 7062304162767342957}
+  Dorojka:
+  - {fileID: 7062304162767342957}
   Cars:
   - {fileID: 607721388}
-  BlueCube: {fileID: 1909233431}
+  StartFigure: {fileID: 1909233431}
   _dorPosition: 20
 --- !u!4 &593370468
 Transform:
@@ -604,7 +605,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109468270}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.88, y: 2.14, z: -2.84}
+  m_LocalPosition: {x: 1.5, y: 2.14, z: -2.8}
   m_LocalScale: {x: 1.4695381, y: 1.4695381, z: 1.4695381}
   m_Children: []
   m_Father: {fileID: 607721390}
@@ -804,11 +805,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _anotherObject: {fileID: 2082492124}
+  _afterErrorObject: {fileID: 0}
   _kuzov: {fileID: 1279207390}
   _nextAnimation: {fileID: 0}
   _newMaterial: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   _lorryMovement: {fileID: 607721388}
   _lastAnim: 1
+  _endLvl: 1
 --- !u!1 &1752545816
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,12 +939,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _anotherObject: {fileID: 1109468273}
+  _afterErrorObject: {fileID: 0}
   _kuzov: {fileID: 1279207390}
   _nextAnimation: {fileID: 1700741264}
   _newMaterial: {fileID: -227680224079878681, guid: 883f4743fd1fbb8409709a454f975a20,
     type: 3}
-  _lorryMovement: {fileID: 0}
+  _lorryMovement: {fileID: 607721388}
   _lastAnim: 0
+  _endLvl: 0
 --- !u!1 &1845657941
 GameObject:
   m_ObjectHideFlags: 0
@@ -1099,12 +1104,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _anotherObject: {fileID: 119946508}
+  _afterErrorObject: {fileID: 0}
   _kuzov: {fileID: 1279207390}
   _nextAnimation: {fileID: 1752545821}
   _newMaterial: {fileID: -7141427240975634832, guid: 883f4743fd1fbb8409709a454f975a20,
     type: 3}
-  _lorryMovement: {fileID: 0}
+  _lorryMovement: {fileID: 607721388}
   _lastAnim: 0
+  _endLvl: 0
 --- !u!1 &2079911625
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,7 +1221,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082492121}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.77, y: 2.079, z: -1.12}
+  m_LocalPosition: {x: 1.6, y: 2.079, z: -1.1}
   m_LocalScale: {x: 1.1816, y: 0.50557244, z: 1.1816}
   m_Children: []
   m_Father: {fileID: 607721390}
@@ -16225,7 +16232,7 @@ PrefabInstance:
     - target: {fileID: 805618911192280313, guid: e4d7505dbb8721a45801d05cf915c4fe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.92
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 805618911192280313, guid: e4d7505dbb8721a45801d05cf915c4fe,
         type: 3}
@@ -16235,7 +16242,7 @@ PrefabInstance:
     - target: {fileID: 805618911192280313, guid: e4d7505dbb8721a45801d05cf915c4fe,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.8000019
+      value: 6.62
       objectReference: {fileID: 0}
     - target: {fileID: 805618911192280313, guid: e4d7505dbb8721a45801d05cf915c4fe,
         type: 3}
